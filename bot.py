@@ -9,7 +9,7 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO
 )
-
+BOT_TOKEN = "8344312549:AAGKxZix5YjEaOyMhxPBaZ3zlyU1zQ1TMPo"
 # 2. Command: /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
